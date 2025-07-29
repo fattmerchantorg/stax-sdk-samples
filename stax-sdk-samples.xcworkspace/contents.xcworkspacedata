@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Sample Projects">
+      <FileRef
+         location = "group:Storyboard/Fattmerchant-iOS-SDK-Sample.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Swift UI/Sample App (Swift UI).xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

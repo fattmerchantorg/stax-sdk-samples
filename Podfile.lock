@@ -1,0 +1,16 @@
+PODS:
+  - Fattmerchant (2.4.2)
+
+DEPENDENCIES:
+  - Fattmerchant (from `../Fattmerchant-iOS-SDK`)
+
+EXTERNAL SOURCES:
+  Fattmerchant:
+    :path: "../Fattmerchant-iOS-SDK"
+
+SPEC CHECKSUMS:
+  Fattmerchant: 6be561a45c18614d64c5a9a9563c1139dae81488
+
+PODFILE CHECKSUM: fdda8a8646854b993b7d8a0c1012b968a024e000
+
+COCOAPODS: 1.16.2

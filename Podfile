@@ -1,13 +1,13 @@
-# Unified Podfile for Fattmerchant iOS SDK Samples
-workspace 'Fattmerchant-iOS-SDK-Samples.xcworkspace'
+# Unified Podfile for Stax SDK Samples
+workspace 'stax-sdk-samples.xcworkspace'
 
 # Common configuration
 platform :ios, '13.0'
 use_frameworks!
 
-# Fattmerchant SDK pod specification
+# Fattmerchant SDK pod specification - Used for cardpresent functionality
 def fattmerchant_sdk
-  pod 'Fattmerchant', :path => '../Fattmerchant-iOS-SDK'
+  pod 'Fattmerchant', :git => 'https://github.com/fattmerchantorg/fattmerchant-ios-sdk.git', :tag => 'release/2.4.3'
 end
 
 # Storyboard Sample Target

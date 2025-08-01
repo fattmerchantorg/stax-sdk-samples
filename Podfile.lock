@@ -1,16 +1,22 @@
 PODS:
-  - Fattmerchant (2.4.2)
+  - Fattmerchant (2.4.3)
 
 DEPENDENCIES:
-  - Fattmerchant (from `../Fattmerchant-iOS-SDK`)
+  - Fattmerchant (from `https://github.com/fattmerchantorg/fattmerchant-ios-sdk.git`, tag `release/2.4.3`)
 
 EXTERNAL SOURCES:
   Fattmerchant:
-    :path: "../Fattmerchant-iOS-SDK"
+    :git: https://github.com/fattmerchantorg/fattmerchant-ios-sdk.git
+    :tag: release/2.4.3
+
+CHECKOUT OPTIONS:
+  Fattmerchant:
+    :git: https://github.com/fattmerchantorg/fattmerchant-ios-sdk.git
+    :tag: release/2.4.3
 
 SPEC CHECKSUMS:
-  Fattmerchant: 6be561a45c18614d64c5a9a9563c1139dae81488
+  Fattmerchant: d690d1c1ec33874ae0b18bc46a1d16964ba9dc9b
 
-PODFILE CHECKSUM: fdda8a8646854b993b7d8a0c1012b968a024e000
+PODFILE CHECKSUM: e1efbba8db3e520f4d66d9ff18a7c4f24aaff10d
 
 COCOAPODS: 1.16.2
